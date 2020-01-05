@@ -1,0 +1,34 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /*background: url(header.jpg) no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+  flex-wrap:wrap;
+	display:flex;
+}
+#right{
+  top: 20px; /* your required value */
+  right: 0;
+  width: 250px;
+  height: 30%;
+  position: fixed;
+}
+p{
+  margin:0 auto;
+}
+form{
+  margin-top: 5%;
+}
+li,h2,p{
+  font-family: 'Montserrat', sans-serif;
+}
+ul{
+  list-style: none;
+}
